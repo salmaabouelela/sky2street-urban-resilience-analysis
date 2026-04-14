@@ -101,12 +101,19 @@ These districts represent higher-risk areas requiring intervention
 
 (Add charts like NDVI, LST, AOD comparison)
 
+
+
 ## Files in This Repository
 - `sky2street.pdf` – Full project presentation and methodology  
-- `Istanbul_AOD.xlsx` – Aerosol Optical Depth (air pollution indicator) dataset  
-- `Istanbul_LST.xlsx` – Land Surface Temperature dataset  
-- `Istanbul_NDVI.xlsx` – Vegetation index dataset  
-- `Istanbul_Precipitation.xlsx` – Precipitation dataset  
+
+- `data/` – Environmental datasets:
+  - `Istanbul_AOD.xlsx` – Air pollution (Aerosol Optical Depth)
+  - `Istanbul_LST.xlsx` – Land Surface Temperature
+  - `Istanbul_NDVI.xlsx` – Vegetation index
+  - `Istanbul_Precipitation.xlsx` – Precipitation data  
+
+- `app2.R` – R script for building the interface of sky 2 street 
+- `nasa.R` – R script for handling and integrating NASA Earth observation data  
 
 ## Impact
 This project supports:
